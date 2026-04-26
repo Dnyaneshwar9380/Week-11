@@ -1,0 +1,6 @@
+import joblib
+
+model = joblib.load("kmeans_pipeline.pkl")
+
+# Predict clusters
+predictions = model.predict(X)
